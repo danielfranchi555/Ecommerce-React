@@ -2,7 +2,7 @@
   "name": "ecommerce-react",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://danielfranchi555.github.io/Ecommerce-React",
+  "homepage":"https://danielfranchi555.github.io/Ecommerce-React",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",

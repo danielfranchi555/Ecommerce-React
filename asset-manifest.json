@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Ecommerce-React/static/css/main.2bc7a071.css",
+    "main.js": "/Ecommerce-React/static/js/main.a8443fb2.js",
+    "static/js/787.72f94a41.chunk.js": "/Ecommerce-React/static/js/787.72f94a41.chunk.js",
+    "static/media/joyeria-min.jpg": "/Ecommerce-React/static/media/joyeria-min.0610963a3fa4b7ffc668.jpg",
+    "static/media/carrousel-react-1-min.jpg": "/Ecommerce-React/static/media/carrousel-react-1-min.f62d1d28fc6ad568b5d6.jpg",
+    "static/media/electronics-min.jpg": "/Ecommerce-React/static/media/electronics-min.c610b11081d46696a4ea.jpg",
+    "static/media/instagram-react.png": "/Ecommerce-React/static/media/instagram-react.e719d8b29f452a16302d.png",
+    "static/media/logo-2.png": "/Ecommerce-React/static/media/logo-2.2bd814478b30bb80bec4.png",
+    "static/media/UserLogo.png": "/Ecommerce-React/static/media/UserLogo.d0d40e6f8f4c6662a000.png",
+    "static/media/facebook.png": "/Ecommerce-React/static/media/facebook.13d509b1b48ee6f8c1da.png",
+    "static/media/carro-de-la-compra.png": "/Ecommerce-React/static/media/carro-de-la-compra.ced9eadfaa1c6bdf9b48.png",
+    "static/media/twitter.png": "/Ecommerce-React/static/media/twitter.894988327f8d68209e91.png",
+    "index.html": "/Ecommerce-React/index.html",
+    "main.2bc7a071.css.map": "/Ecommerce-React/static/css/main.2bc7a071.css.map",
+    "main.a8443fb2.js.map": "/Ecommerce-React/static/js/main.a8443fb2.js.map",
+    "787.72f94a41.chunk.js.map": "/Ecommerce-React/static/js/787.72f94a41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bc7a071.css",
+    "static/js/main.a8443fb2.js"
+  ]
+}

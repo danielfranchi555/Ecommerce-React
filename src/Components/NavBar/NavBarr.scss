@@ -1,0 +1,52 @@
+.navbar{
+  background-color: rgba(92, 99, 99, 0.497);
+  font-weight: 900;
+  .logoNav{
+    width: 60PX;
+  }
+    .container-fluid{
+        .link{
+            text-decoration: none;
+          a{
+            
+          }
+        }
+        color: rgb(20, 19, 19);
+        navbar-brand{
+            list-style: none;
+        }
+        .nav-item{
+          .nav-link:hover{
+             color:white;
+          }
+          .dropdown-menu{
+            li{
+              .dropdown-item:hover{
+              background-color: rgb(152, 150, 151);
+              }
+            }
+            }
+          }
+        }
+    }
+    .divLogoCarrito{
+      margin-right: 50px;
+      span{
+        color: black;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+        list-style: none;
+        text-decoration: none;
+      }
+      .logoCarrito{
+    width: 40px;
+     }
+}  
+   
+
+
+
+
+
+

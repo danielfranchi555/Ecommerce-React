@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
+import NavBar from './Components/NavBar/NavBar';
+import { CartContextProvider } from './Components/Context/CartContext';
+import { Cart } from './Components/Cart/Cart';
+import ItemCount from './Components/ItemCount/ItemCount';
+import Contacts from './Components/Contacts/Contacts';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+    <CartContextProvider>
+       <div className="App">
+      <NavBar></NavBar>
+      <Routes>
+      <Route path='/' element={<ItemListContainer/>}></Route>
+      <Route path='/categories/:nameCategorie' element={<ItemListContainer/>}></Route>
+      <Route path='/detalle/:id' element={<ItemDetailContainer/>}></Route>
+      <Route path='/cart' element={<Cart/>}></Route>
+      <Route path='/count' element={<ItemCount/>}></Route>
+      <Route path='/contacts' element={<Contacts/>}></Route>
+      </Routes>
     </div>
+    </CartContextProvider>
+    
+    </BrowserRouter>
+   
   );
 }
 

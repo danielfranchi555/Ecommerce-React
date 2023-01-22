@@ -1,0 +1,26 @@
+.containerCart{
+    h1{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .mainCart{
+       .Btn-Delete{
+        margin-top: 5px;
+        width: 110px;
+       }
+    }
+    .div-Checkout{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+        .precioTotal{
+            font-size: 20px;
+            span{
+                padding: 10px;
+                font-size: 22px;
+                align-items: center;
+                font-weight: 700;
+            }
+        }
+    }
+}

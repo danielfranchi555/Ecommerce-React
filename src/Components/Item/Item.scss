@@ -1,0 +1,23 @@
+.cardMain{
+    min-width: 180px;
+    display: flex;
+    justify-content: center;
+    .card{
+        width: 200px;
+        max-width: 300px;
+        margin-top:20px;
+        padding: 20px;
+        .card-img-top{
+            .card-img{
+          height: 230px;
+          width: 100%;
+         }
+        }
+        .card-body{
+            max-height:200px;
+            .btn{
+
+            }
+        }
+    }
+}

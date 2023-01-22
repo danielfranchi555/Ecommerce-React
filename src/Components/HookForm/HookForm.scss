@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px;  
+    .input-Form{
+    margin-left: 10px;
+     width: 200px;
+     border: solid 1px gray;
+     border-radius: 5px;
+   }
+   label{
+    margin-left: 10px;
+    font-weight: 600;
+    padding: 3px;
+   }
+   .message{
+    margin: 0px 10px 10px 10px;
+    border: solid 1px gray;
+   }
+}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ecommerce-React/static/css/main.2bc7a071.css",
-    "main.js": "/Ecommerce-React/static/js/main.a8443fb2.js",
+    "main.js": "/Ecommerce-React/static/js/main.8c4e04e6.js",
     "static/js/787.72f94a41.chunk.js": "/Ecommerce-React/static/js/787.72f94a41.chunk.js",
     "static/media/joyeria-min.jpg": "/Ecommerce-React/static/media/joyeria-min.0610963a3fa4b7ffc668.jpg",
     "static/media/carrousel-react-1-min.jpg": "/Ecommerce-React/static/media/carrousel-react-1-min.f62d1d28fc6ad568b5d6.jpg",
@@ -14,11 +14,11 @@
     "static/media/twitter.png": "/Ecommerce-React/static/media/twitter.894988327f8d68209e91.png",
     "index.html": "/Ecommerce-React/index.html",
     "main.2bc7a071.css.map": "/Ecommerce-React/static/css/main.2bc7a071.css.map",
-    "main.a8443fb2.js.map": "/Ecommerce-React/static/js/main.a8443fb2.js.map",
+    "main.8c4e04e6.js.map": "/Ecommerce-React/static/js/main.8c4e04e6.js.map",
     "787.72f94a41.chunk.js.map": "/Ecommerce-React/static/js/787.72f94a41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bc7a071.css",
-    "static/js/main.a8443fb2.js"
+    "static/js/main.8c4e04e6.js"
   ]
 }

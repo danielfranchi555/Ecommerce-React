@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
 import Slider from "../Slider/Slider";
 import ClipLoader from "react-spinners/ClipLoader";

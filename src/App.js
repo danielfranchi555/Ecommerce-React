@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 import NavBar from './Components/NavBar/NavBar';
 import { CartContextProvider } from './Components/Context/CartContext';
@@ -10,7 +10,7 @@ import ItemCount from './Components/ItemCount/ItemCount';
 import Contacts from './Components/Contacts/Contacts';
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <CartContextProvider>
        <div className="App">
       <NavBar></NavBar>
@@ -25,7 +25,7 @@ function App() {
     </div>
     </CartContextProvider>
     
-    </BrowserRouter>
+    </HashRouter>
    
   );
 }
